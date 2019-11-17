@@ -13,8 +13,7 @@ public class Solution {
         int x = a+b;
         return x;
    }
-
-   
+    
  public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int a;
