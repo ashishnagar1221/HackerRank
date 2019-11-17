@@ -48,5 +48,5 @@ function main() {
         ws.write(result + "\n");
     }
 
-    ws.end();
+   ws.end();
 }
