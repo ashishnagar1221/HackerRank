@@ -18,9 +18,7 @@ function matString(r,c, matrix) {
   
   for (k=0; k<len; k++) {
     var line = [];
-    //console.log(sr +' , ' + sc);
-    //console.log(mr +' , ' + mc);
-    //console.log(1);console.log(line);
+    
     for(i=sc; i<mc; i++) line.push(matrix[sr][i]);
     //console.log(2); console.log(line);
     for(i=sr+1; i<mr; i++) line.push(matrix[i][mc-1]);
